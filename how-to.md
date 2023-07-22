@@ -28,7 +28,7 @@ Create a tsconfig.json file with the following:
 * `--target` means which version of ECMAScript you're using to code. `--module` means which module system you're using such as commonjs for Node or ES module for all that supports it and what not. [1](https://stackoverflow.com/questions/39493003/typescript-compile-options-module-vs-target)
 
 
-Creat a src folder:
+Create a src folder:
 
 ```bash
 mkdir src
