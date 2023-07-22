@@ -56,7 +56,7 @@ app.listen(3000, () => {
 });
 ```
 
-Add the following scripts to package.json:
+Add the following scripts to `package.json`:
 
 ```json
 {
@@ -96,7 +96,7 @@ EXPOSE 3000
 CMD ["npm", "start"]
 ```
 
-Then launch the app with fly (follow the prompts)
+Then launch the app with fly (follow the prompts):
 
 ```
 fly launch
