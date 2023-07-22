@@ -3,8 +3,8 @@
 Create a new directory, initialize npm, and install dependencies:
 
 ```
-mkdir ts-node
-cd ts-node
+mkdir express-typescript
+cd express-typescript
 npm init -y
 npm install express typescript ts-node @types/node @types/express
 
