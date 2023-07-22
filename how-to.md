@@ -110,8 +110,5 @@ fly deploy
 
 Make sure to install fly first with `brew install flyctl`
 
-Then go to [fly](https://fly.io/dashboard)
+Then go to [fly](https://fly.io/dashboard), to see your app running!
 
-to see your app running!
-
-Hope you enjoyed the help.
