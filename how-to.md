@@ -68,7 +68,13 @@ Add the following scripts to `package.json`:
 }
 ```
 
-Create a Dockerfile:
+Launch the app with fly (follow the prompts):
+
+```
+fly launch
+```
+
+Replace the fly (NodeJS detected Dockerfile) with this Dockerfile:
 
 ```Dockerfile
 # Use the official Node.js 14 image as the base image
@@ -96,19 +102,13 @@ EXPOSE 3000
 CMD ["npm", "start"]
 ```
 
-Then launch the app with fly (follow the prompts):
-
-```
-fly launch
-```
-
 Deploy the app with:
 
 ```
 fly deploy
 ```
 
-Make sure to install fly first with `brew install flyctl`
+*Make sure to install fly first with `brew install flyctl`
 
 Then go to [fly](https://fly.io/dashboard), to see your app running!
 
